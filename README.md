@@ -2,14 +2,14 @@
 
 #API Documentation:
 
-#LEPE Token Tasks
+# LEPE Token Tasks
 Harvest Taxes and Fees
 Description
 
 **Collects taxes and fees, transfers them to the owner wallet, converts SOL to XAUT/P**
 
 
-#Explanation:
+# Explanation:
 
 **This script defines three functions:**
 
@@ -17,7 +17,7 @@ Description
 2.zfx_schedule: Triggers an automated event via gold weight milestones, compiles holder addresses and balances, mints new tokens, and transfers them to users proportionally.
 3.extract_xaut_balance: Extracts XAUT balance, compiles gold weight and price in real-time, and automates the ZFx Schedule.
 
-#Note:
+# Note:
 
 •This script serves as a starting point and requires completion and testing.
 •Replace placeholders (e.g., pubkeys, calculations) with actual values.
